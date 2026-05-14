@@ -23,7 +23,7 @@ dane_numeryczne <- dane_numeryczne %>%
 # Usunięcie wierszy z brakami danych (NA)
 dane_czyste <- na.omit(dane_numeryczne)
 
-# >>> GŁÓWNA ZMIANA: Tworzymy nowy obiekt bez kolumny 'cena' do klastrowania
+# Tworzymy nowy obiekt bez kolumny 'cena' do klastrowania
 zmienne_do_klastrowania <- dane_czyste %>% select(-cena)
 
 # Skalowanie danych
