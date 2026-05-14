@@ -11,7 +11,7 @@ Projekt realizowany w ramach studiów na SGGW, mający na celu wielowymiarową t
 * **Zmienna profilująca (pasywna):** Mediana cen za $1~m^2$ lokali mieszkalnych.
 
 ##  Technologie i Metodyka
-### Stack technologiczny
+### Technologie
 * **Język:** R
 * **Kluczowe pakiety:** `stats` (kmeans, hclust), `factoextra` (wizualizacja klastrów), `ggplot2` (histogramy), `corrplot` (macierze korelacji).
 
@@ -24,7 +24,7 @@ Projekt realizowany w ramach studiów na SGGW, mający na celu wielowymiarową t
 4. **Redukcja wymiarowości:** Analiza Głównych Składowych (PCA) wykorzystana do wizualizacji wielowymiarowych klastrów na płaszczyźnie 2D.
 5. **Profilowanie:** Interpretacja klastrów z wykorzystaniem zmiennej pasywnej (ceny).
 
-##  Kluczowe wnioski (Insights)
+##  Kluczowe wnioski
 * **Silna polaryzacja:** Rynek nieruchomości w Polsce jest wyraźnie podzielony na dynamiczne metropolie, strefy suburbanizacji, regiony turystyczne oraz obszary w zapaści demograficznej.
 * **Efekt "Obwarzanka":** Zidentyfikowano dynamicznie rozwijające się powiaty podmiejskie (wysokie saldo migracji, najniższe bezrobocie), gdzie ceny są napędzane przez nowe inwestycje deweloperskie i popyt zamożniejszych rodzin.
 * **Oderwanie cen od lokalnej gospodarki:** W enklawach turystycznych (nadmorskich i górskich) ceny nieruchomości są determinowane przez kapitał zewnętrzny i inwestycyjny (second homes), a nie przez lokalne zarobki mieszkańców.
